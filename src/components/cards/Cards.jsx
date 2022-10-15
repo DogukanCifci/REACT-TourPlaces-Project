@@ -13,9 +13,7 @@ const Cards = ({ dataa }) => {
               <div className="col g-3" sm={12} md={6} lg={4} key={id}>
                 <div className="card">
                   <div className="card-body">
-                    <div className="card-title">
-                      <b>{title.toUpperCase()}</b>{" "}
-                    </div>
+                    <div className="card-title">{title.toUpperCase()} </div>
                   </div>
 
                   <div data-tooltip={desc} className="images mx-auto ">

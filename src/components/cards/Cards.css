@@ -22,7 +22,13 @@
   border-radius: 10px;
   font-family: "Permanent Marker", cursive;
 }
-.images::before {
+
+.images:hover {
+  filter: grayscale(100%);
+}
+
+/* Alttaki before kismi ile yukarda filter grayscale olayi ayni 
+/*.images::before {
   content: "";
   position: absolute;
   width: 0;
@@ -35,7 +41,7 @@
   background-color: rgba(86, 59, 59, 0.6);
   border-radius: 15px;
   margin: 0 auto;
-}
+}*/
 .images::after {
   content: attr(data-tooltip);
   color: white;
